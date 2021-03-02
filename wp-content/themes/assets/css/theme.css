@@ -1,0 +1,96 @@
+
+body{
+    --text: #EEE;
+    --main: #2196f3;
+    --border:#2196f3;
+    --color:#fff;
+}
+
+
+a,
+header .main-nav>li a span,
+#mobile-menu ul li a,
+.vc_icon_element-icon,
+.vc_separator .vc_sep_holder .vc_sep_line
+{
+    color: var(--main);
+}
+
+.theme,
+.footer-bottom,
+.show_informtion,
+.theme .fa.fa-cog,
+header .main-nav>li:hover,
+.pni-button.orange-stroke:hover ,
+header .main-nav>li ul,
+.registration .btn ,
+.registration .back-title,
+input[type="radio"]:checked{
+    background-color: var(--main) ;
+}
+
+
+
+
+.theme,
+body.dark,
+.pni-button.orange-stroke a,
+.footer-bottom a,
+.pni-button.orange-stroke:hover a,
+header .main-nav>li ul a,
+.copyright {
+    color: var(--text);
+}
+
+header,
+.container-slider-video,
+.pni-button.orange-stroke,
+.pni-button.orange-stroke a
+{border-color: var(--border);
+}
+
+
+.theme {
+	padding:1rem;
+	display: inline-block;
+	position: fixed;
+	border-radius: 3px;
+    z-index: 5555;
+    top: 30%;
+	right:-8.7rem;
+    transition: all .5s ease;
+    text-align: left;
+    font-weight: bold;
+}
+.theme:hover {
+	right: -0px;
+}
+.theme .fa.fa-cog {
+	padding: .7rem;
+	border-radius: 15px 0 0 15px;
+	position: relative;
+	left: -121px;
+	top: -16px;
+}
+.theme #change_color {
+    display: none;
+}
+
+
+.theme #change_theme{
+cursor: pointer;
+}
+
+
+body.dark{
+    background-color: #111;
+}
+
+
+
+body.dark header,
+body.dark .content_informtion.row {
+    background-color: #222;
+
+}
+
